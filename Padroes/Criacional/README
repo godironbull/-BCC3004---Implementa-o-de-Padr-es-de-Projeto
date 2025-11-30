@@ -1,0 +1,21 @@
+## Diagrama de Classes
+
+
+
+## Explicação do Padrão de Template Method
+
+O padrão de projeto Template Method é um padrão comportamental que define o esqueleto de um algoritmo em uma operação, deixando alguns passos para serem implementados pelas subclasses. Isso permite que as subclasses redefinam certos passos do algoritmo sem alterar sua estrutura geral. A arquitetura do padrão Template Method geralmente envolve dois componentes principais:
+
+1. **Classe Abstrata**: Esta é a classe que define o método template, que contém a estrutura geral do algoritmo. 
+    Dentro desse método, alguns passos são implementados diretamente, enquanto outros são declarados como métodos abstratos ou 
+    "ganchos" (hooks) que devem ser implementados pelas subclasses.
+
+2. **Subclasses Concretas**: Estas são as classes que estendem a classe abstrata e implementam os métodos abstratos ou ganchos definidos na classe base. 
+   Cada subclasse pode fornecer sua própria implementação para esses passos específicos do algoritmo, permitindo variações no comportamento 
+   sem alterar a estrutura geral definida pela classe abstrata.
+
+### Problema que o Padrão Resolve
+
+O padrão Template Method resolve o problema de duplicação de código e inconsistência ao implementar algoritmos que compartilham uma estrutura comum, mas diferem em alguns detalhes. Sem esse padrão, 
+seria necessário duplicar o código do algoritmo em várias subclasses, o que pode levar a erros e dificultar a manutenção.
+

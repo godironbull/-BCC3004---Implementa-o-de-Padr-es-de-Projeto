@@ -1,0 +1,8 @@
+## Diagrama de Classes
+
+![alt text](image.png)
+
+## Explicação do Padrão de Projeto Singleton
+
+O padrão de projeto Singleton é um padrão criacional que garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a essa instância. Esse padrão é útil quando é necessário controlar o acesso a recursos compartilhados, 
+como conexões de banco de dados, gerenciadores de configuração ou pools de threads.
