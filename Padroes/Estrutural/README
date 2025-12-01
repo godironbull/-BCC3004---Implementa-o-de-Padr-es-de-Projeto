@@ -13,3 +13,6 @@ O padrão de projeto Proxy é um padrão estrutural que fornece um substituto ou
 
 3. **Proxy**: Esta é a classe que também implementa a interface Subject e contém uma referência ao RealSubject. O Proxy controla o acesso ao RealSubject, podendo adicionar funcionalidades adicionais, como autenticação, cache, ou registro de logs, antes ou depois de delegar as chamadas ao RealSubject.
 
+### Problema que o Padrão Resolve
+
+O problema resolvido pelo padrão de projeto Proxy é a falta de controle no acesso direto a um objeto. Este padrão introduz um intermediário que gerencia a comunicação entre o cliente e o objeto real

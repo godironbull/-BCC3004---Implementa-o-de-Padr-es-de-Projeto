@@ -6,3 +6,7 @@
 
 O padrão de projeto Singleton é um padrão criacional que garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a essa instância. Esse padrão é útil quando é necessário controlar o acesso a recursos compartilhados, 
 como conexões de banco de dados, gerenciadores de configuração ou pools de threads.
+
+### Problema que o Padrão Resolve
+
+O problema resolvido pelo padrão de projeto Singleton é a necessidade de unicidade de estruturas do sistema. Tal padrão garante a unicidade de certas entidades no sistema.
